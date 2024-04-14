@@ -1,0 +1,45 @@
+
+.servicos { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    margin: 5rem auto 0 auto; 
+    width: 1200px; 
+} 
+
+.servicos-paragrafo { 
+    color: #fce3b5; 
+    display: flex; 
+    font-family: 'Dancing Script'; 
+    font-size: 50px; 
+    font-weight: bold; 
+    justify-content: center; 
+    white-space: nowrap; 
+} 
+.servicos-container { 
+    align-items: center; 
+    display: flex; 
+    justify-content: space-evenly; 
+    margin-left: 4rem; 
+    margin-right: 4rem; 
+    margin-top: 2rem; 
+} 
+
+.servicos-subcontainer { 
+    align-items: center; 
+    background-color: #54372B; 
+    border-radius: 2rem; 
+    cursor: pointer; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 1rem; 
+    height: 205px; 
+    justify-content: center; 
+    padding: 2rem 2rem; 
+    width: 150px; 
+} 
+
+.servicos-subcontainer__paragrafo { 
+    color: #fce3b5; 
+    text-align: center; 
+} 

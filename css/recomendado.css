@@ -1,0 +1,48 @@
+.recomendado { 
+    padding: 4rem 0; 
+} 
+
+.recomendado-container { 
+    align-items: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    margin: 0 auto 0 auto; 
+    width: 1200px; 
+} 
+
+.recomendado-container__titulo { 
+    color: #fce3b5; 
+    display: flex; 
+    font-family: 'Dancing Script'; 
+    font-size: 50px; 
+    font-weight: bold; 
+    justify-content: center; 
+    margin-bottom: 2rem; 
+    white-space: nowrap; 
+} 
+
+.recomendado-subcontainer { 
+    display: flex; 
+    gap: 2rem; 
+} 
+
+.recomendado-subcontainer__item { 
+    align-items: center; 
+    background-color: #54372B; 
+    display: flex; 
+    border-radius: 1rem; 
+    border-radius: 1rem; 
+    flex-direction: column; 
+    justify-content: center; 
+} 
+
+.recomendado-subcontainer__descricao { 
+    background-color: #976753; 
+    border-radius: 0 0 1rem 1rem; 
+    font-size: 16px; 
+    font-weight: bold; 
+    padding: 1rem 0; 
+    text-align: center; 
+    width: 100%; 
+} 

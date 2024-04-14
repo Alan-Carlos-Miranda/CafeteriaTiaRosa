@@ -1,0 +1,82 @@
+.menu { 
+    display: flex; 
+    flex-direction: column; 
+    margin: 0 auto 0 auto; 
+    padding: 4rem 0; 
+    width: 1200px; 
+} 
+
+.menu-titulo { 
+    color: #fce3b5; 
+    display: flex; 
+    font-family: 'Dancing Script'; 
+    font-size: 50px; 
+    font-weight: bold; 
+    justify-content: center; 
+    margin-bottom: 6rem; 
+    white-space: nowrap; 
+} 
+
+.menu-container { 
+    align-items: center; 
+    background-image: url('/Imagens/menu.png'); 
+    background-repeat: no-repeat; 
+    background-size: 400px; 
+    background-position-x: center; 
+    background-position-y: center; 
+    display: flex; 
+    gap: 18rem; 
+    justify-content: center; 
+    padding: 4rem 0 0 0; 
+} 
+
+.menu-subcontainer{ 
+    display: flex; 
+    flex-direction: column; 
+    gap: 2rem; 
+} 
+
+.menu-fonte { 
+    color: #fce3b5; 
+    display: flex; 
+    font-family: 'Dancing Script'; 
+    font-size: 30px; 
+    font-weight: bold; 
+    justify-content: center; 
+    margin-bottom: 2rem; 
+    white-space: nowrap; 
+} 
+
+.menu-subcontainer__texto1::before { 
+    content: "R$ 10,00------------"; 
+} 
+
+.menu-subcontainer__texto2::before { 
+    content: "R$ 25,00--------"; 
+} 
+
+.menu-subcontainer__texto3::before { 
+    content: "R$ 45,00------------"; 
+} 
+
+.menu-subcontainer__texto4::before { 
+    content: "R$ 40,00----------------"; 
+} 
+
+.menu-subcontainer__texto5::after { 
+    content: "------------R$ 30,00"; 
+} 
+
+.menu-subcontainer__texto6::after { 
+    content: "--------R$ 30,00"; 
+} 
+
+.menu-subcontainer__texto7::after { 
+    content: "------------R$ 25,00"; 
+} 
+
+.menu-subcontainer__texto8::after { 
+    content: "----------------R$ 25,00"; 
+} 
+
+ 

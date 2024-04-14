@@ -1,0 +1,53 @@
+.oferta { 
+    margin: 4rem 0; 
+} 
+
+.oferta-container { 
+    align-items: center; 
+    background-color: #54372B; 
+    border-radius: 1rem; 
+    display: flex; 
+    height: 400px; 
+    justify-content: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 6rem; 
+    width: 1200px; 
+} 
+
+.oferta-container__titulo { 
+    bottom: 4.5rem; 
+    color: #fce3b5; 
+    display: flex; 
+    font-family: 'Dancing Script'; 
+    font-size: 50px; 
+    font-weight: bold; 
+    justify-content: start; 
+    margin-left: 4rem; 
+    position: relative; 
+    white-space: nowrap; 
+} 
+
+.oferta-container__titulo_secundario { 
+    color: #fce3b5; 
+    display: flex; 
+    font-family: 'Dancing Script'; 
+    font-size: 50px; 
+    font-weight: bold; 
+    justify-content: start; 
+    margin-bottom: 2rem; 
+    margin-left: 4rem; 
+    white-space: nowrap; 
+} 
+
+.oferta-container__texto { 
+    display: inline-block; 
+    font-size: 18px; 
+    line-height: 2rem; 
+    margin-left: 4rem; 
+} 
+
+.oferta-container__botao { 
+    margin-left: 4rem; 
+    margin-top: 2rem; 
+}  

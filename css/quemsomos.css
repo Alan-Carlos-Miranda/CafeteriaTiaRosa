@@ -1,0 +1,40 @@
+.quem-somos { 
+    margin-top: 8rem;     
+} 
+
+.quem-somos__titulo { 
+    bottom: 3.8rem; 
+    color: #fce3b5; 
+    display: flex; 
+    font-family: 'Dancing Script'; 
+    font-size: 50px; 
+    font-weight: bold; 
+    justify-content: end; 
+    margin-right: 4rem; 
+    position: relative; 
+    white-space: nowrap; 
+} 
+
+.quem-somos__container { 
+    align-items: center; 
+    background-color: #54372B; 
+    border-radius: 1rem; 
+    display: flex; 
+    height: 400px; 
+    justify-content: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 6rem; 
+    width: 1200px; 
+} 
+
+.quem-somos__img { 
+    display: inline-block; 
+}
+     
+.quem-somos__texto { 
+    display: inline-block; 
+    font-size: 18px; 
+    line-height: 2rem; 
+    margin-right: 4rem; 
+} 
